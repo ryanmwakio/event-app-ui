@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 
 import { getFeaturedEvents } from "../data/dummy-data";
@@ -10,6 +10,7 @@ export async function getStaticProps(context) {
 
 function HomePage() {
   const featuredEvents = getFeaturedEvents();
+
   return (
     <div className="mx-0 md:mx-20 my-5">
       <Head>

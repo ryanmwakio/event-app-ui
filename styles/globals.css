@@ -47,3 +47,7 @@
     text-shadow: none;
   }
 }
+
+.pagination a {
+  margin: 0 0.5rem;
+}

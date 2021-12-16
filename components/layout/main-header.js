@@ -19,7 +19,7 @@ function MainHeader() {
       </div>
       <nav>
         <ul>
-          <li className="inline-block">
+          <li className="inline-block my-2 md:my-0">
             <Link href="/">
               <span className="nav-link">Home</span>
             </Link>

@@ -1,4 +1,5 @@
 import moment from "moment";
+import Image from "next/image";
 import React from "react";
 
 import Button from "./ui/Button";
@@ -16,11 +17,14 @@ function EventItem(props) {
   return (
     <div className="flex justify-center align-middle">
       <li className="md:flex col-span-2 w-5/5 md:w-3/4 border border-gray-200 my-2 shadow-lg hover:shadow-xl rounded-md overflow-hidden">
-        <img
+        <Image
           src={"/" + image}
-          alt=""
-          className="w-full md:w-1/2 h-40 md:h-72 object-cover"
+          width={350}
+          height={160}
+          className="w-full md:w-1/2 h-40 md:h-72 object-cover overflow-hidden"
+          alt={title}
         />
+
         <div className="p-2 bg-white px-5">
           <div>
             <h2 className=" font-semibold tracking-widest text-md uppercase text-green-500 border-b border-gray-200 my-2 py-1">

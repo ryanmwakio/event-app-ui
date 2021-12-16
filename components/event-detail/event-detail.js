@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { moment } from "moment";
 import Head from "next/head";
+import Image from "next/image";
 
 function EventDetailComp(props) {
   const { id, title, description, location, date, image, isFeatured } =
@@ -17,7 +17,7 @@ function EventDetailComp(props) {
           <img
             src={`/${image}`}
             alt="event image"
-            className=" h-96 w-full object-cover"
+            className="h-96 w-full object-cover"
           />
         </div>
         <div className="p-3">
