@@ -38,7 +38,7 @@ function AllEvents(props) {
   return (
     <main className="my-5 mx-0 md:mx-20">
       <Head>
-        <title>All Products</title>
+        <title>All Events</title>
       </Head>
       <EventsSearch onSearch={findEventsHandler} />
       <EventList items={events} />

@@ -20,8 +20,8 @@ function EventItem(props) {
         <Image
           src={"/" + image}
           width={350}
-          height={160}
-          className="w-full md:w-1/2 h-40 md:h-72 object-cover overflow-hidden"
+          height={200}
+          className="w-full md:w-1/2 md:h-72 object-cover overflow-hidden"
           alt={title}
         />
 
